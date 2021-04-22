@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+// 1. Import the initial variables
+@import "~bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+$blue: #03b1fc;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Sen", "Helvetica", "Arial", sans-serif;
+$family-serif: "Merriweather", "Georgia", serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+$secondary: #B3CBB9;
+
+
+
+// 4. Import the rest of Bulma
+
+@import "~bulma/bulma";
+
+.is-secondary {
+	background-color:$secondary;
+}
+
+// HEADER - LOGO
+.logo {
+	font-weight:bold;
+	font-size:1.25em;
+}
+
+// PROFILE PIC
+.profile-pic {
+	border:solid white 6px;
+	border-radius:50%;
+	width:120px;
+	height:120px;
+	position: relative;
+	object-fit: cover;
+}
+
+.contrast {
+	background-color:#eeeeee;
+}
+
+.spacer {
+	min-height:60vh;
+}
+
+.icon {
+
+}

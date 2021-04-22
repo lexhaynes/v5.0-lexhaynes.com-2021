@@ -39,5 +39,15 @@ module.exports = {
       },
       __key: "pages",
     },
+    {
+    resolve: `gatsby-plugin-google-fonts`,
+    options: {
+      fonts: [
+        `sen\:400,700,600,800`,
+        `Merriweather\:400,400i,700`
+      ],
+      display: 'swap'
+    }
+    }
   ],
 };
