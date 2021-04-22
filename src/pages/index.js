@@ -5,7 +5,6 @@ import Footer from '../components/footer'
 import ProfilePic from '../images/profile.jpg'
 import '../styles/lib.css'
 import '../styles/main.scss'
-import { SocialIcon } from 'react-social-icons';
 
 
 const IndexPage = () => {
@@ -26,16 +25,12 @@ const IndexPage = () => {
 
                 <p className="buttons">
                     <a className="button" href="https://www.linkedin.com/in/alexandra-haynes-36349184/">
-                        <span className="icon">
-                            <SocialIcon network="linkedin" bgColor="#666" />
-                        </span>
+                    
                         <span>LinkedIn</span>
                     </a>
                     
                     <a className="button" href="https://github.com/lexhaynes">
-                        <span className="icon">
-                            <SocialIcon network="github" bgColor="#666" />
-                        </span>
+                      
                         <span>GitHub</span>
                     </a>
                 </p>
